@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Sicek Lelang</title>
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -63,7 +63,7 @@
 
     <!-- Sidebar -->
     <div class="sidebar d-flex flex-column p-3">
-        <h4 class="text-center py-3 border-bottom border-light">My App</h4>
+        <h4 class="text-center py-3 border-bottom border-light">SiCekLelang</h4>
         <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
             <i class="bi bi-speedometer2"></i> Dashboard
         </a>
@@ -77,7 +77,7 @@
         <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="#">MyApp</a>
+        <a class="navbar-brand fw-bold" href="#">SiCekLelang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
